@@ -1,0 +1,22 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "Applicazione per il workshop Smart Contract e indicizzazione su Blockchain Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiramidStudio/workshop-ethereum.git"
+  },
+  "author": "Enrico enrico@piramid.studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiramidStudio/workshop-ethereum/issues"
+  },
+  "homepage": "https://github.com/PiramidStudio/workshop-ethereum#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.41"
+  }
+}
