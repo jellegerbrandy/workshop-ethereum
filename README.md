@@ -6,13 +6,20 @@ https://www.eventbrite.it/e/biglietti-smart-contract-e-indicizzazione-su-blockch
 
 ## Configurazione ambiente
 
-Installare Node (10.x), npm
+Installare **Node (10.x), npm** o in alternativa **yarn**
 
-Installare le dipendenze
-
-`npm install`
+Installare le **dipendenze**: `npm install` oppure `yarn install`
 
 
-Installare Parity
+Installare **Parity**
 
 `bash <(curl https://get.parity.io -L) -r stable`
+
+
+## Avvio ambiente
+
+Lanciare **Parity** `parity`
+
+A questo indirizzo è possibile trovare la configurazione con cui Parity viene avviato di default:
+
+https://wiki.parity.io/Private-development-chain
