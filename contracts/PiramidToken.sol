@@ -1,15 +1,15 @@
 pragma solidity ^0.5.0;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
 
-contract PiramidToken is ERC20 {
+contract PiramidToken is ERC20, ERC20Detailed {
 
-    string public name = "Piramid";
-    string public symbol = "PRI";
-    uint256 public constant decimals = 18;
-    uint256 public INITIAL_SUPPLY = 21000000 * (10**decimals);
 
-    constructor() public {
-        transfer(msg.sender, INITIAL_SUPPLY);
+    uint8 public constant DECIMALS = 18;
+    uint256 public constant INITIAL_SUPPLY = 10000 * (10 ** uint256(DECIMALS));
+
+    constructor () public ERC20Detailed("PiramidToken", "PRMD", DECIMALS) {
+        _mint(msg.sender, INITIAL_SUPPLY);
     }
 }

@@ -31,3 +31,7 @@ Lanciare **Parity**
 A questo indirizzo è possibile trovare la configurazione con cui Parity viene avviato di default:
 
 https://wiki.parity.io/Private-development-chain
+
+## Test transazioni
+
+Metamask
