@@ -29,20 +29,23 @@ Lanciare **Parity**
 
 Se Parity non trova la password aggiungete un a capo nel file (=
 
-## Info
+##
 
-Per monitorare il nodo Parity potete installare **Parity UI** https://github.com/parity-js/shell
+Per monitorare e "giocare" con il vostro nodo Parity potete installare **Parity UI** https://github.com/parity-js/shell
 
-A questo indirizzo è possibile trovare la configurazione con cui Parity viene avviato di default:
-
-https://wiki.parity.io/Private-development-chain
+A questo indirizzo è possibile trovare la configurazione con cui Parity viene avviato di default https://wiki.parity.io/Private-development-chain
 
 ## Test transazioni
 
-Metamask Chrome Extension
+**GSheet**
+
+https://docs.google.com/spreadsheets/d/1Pf34ZmxqptNcaMSBXEnN7BH3y9_fseyybSi2JyW9Tyo/edit#gid=0
+
+**Metamask Chrome Extension**
 
 - Creare una password per il wallet
 - Immagine unica
 - Termini e condizioni
 - Privacy
 - Segnarsi la secret backup phrase
+- Scrivere sul gsheet nome e indirizzo Metamask
