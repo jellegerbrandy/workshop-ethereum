@@ -29,7 +29,7 @@ Lanciare **Parity**
 
 Se Parity non trova la password aggiungete un a capo nel file (=
 
-##
+## Extras
 
 Per monitorare e "giocare" con il vostro nodo Parity potete installare **Parity UI** https://github.com/parity-js/shell
 

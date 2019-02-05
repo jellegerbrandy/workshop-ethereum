@@ -7,8 +7,8 @@ contract('PiramidToken', function (accounts) {
     // accounts[0] is the contract owner
     let balance = await token.balanceOf(accounts[0])
     // we expect the initial balanace of the owner to be 21M * 18 point precision
-
-    console.log(accounts[0]);
     assert.equal(balance.valueOf(), 21000000 * prmd)
   })
+
+  // TO-DO: transfer from accounts[0] to [1] and test
 })
