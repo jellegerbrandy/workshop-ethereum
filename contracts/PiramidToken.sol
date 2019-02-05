@@ -9,6 +9,6 @@ contract PiramidToken is ERC20, ERC20Detailed {
     uint256 public constant INITIAL_SUPPLY = 21000000 * (10 ** uint256(DECIMALS));
 
     constructor () public ERC20Detailed("PiramidToken", "PRM", DECIMALS) {
-        _mint(msg.sender, INITIAL_SUPPLY);
+        _mint(0x3D6161451B2D83BBc05a283cA718Ab1C0A669753, INITIAL_SUPPLY);
     }
 }

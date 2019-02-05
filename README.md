@@ -29,6 +29,12 @@ Lanciare **Parity**
 
 Se Parity non trova la password aggiungete un a capo nel file (=
 
+## Operazioni
+
+`truffle migrate --network piramid` per deployare il contratto sul nodo locale
+
+`truffle migrate --network piramid --reset` per forzare il deploy
+
 ## Extras
 
 Per monitorare e "giocare" con il vostro nodo Parity potete installare **Parity UI** https://github.com/parity-js/shell
