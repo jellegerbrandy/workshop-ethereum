@@ -75,6 +75,13 @@ module.exports = {
       // network_id: 2111,   // This network is yours, in the cloud.
       // production: true    // Treats this network as if it was a public net. (default: false)
     // }
+    piramid: {
+      host: 'localhost',
+      port: 8545,
+      network_id: '*',
+      gas: 4600000,
+      from: "00a329c0648769a73afac7f9381e08fb43dbea72"
+    },
   },
 
   // Set default mocha options here, use special reporters etc.

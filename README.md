@@ -12,21 +12,26 @@ https://www.eventbrite.it/e/biglietti-smart-contract-e-indicizzazione-su-blockch
 
 `npm install` oppure `yarn install`
 
-
 **Parity**
 
 `bash <(curl https://get.parity.io -L) -r stable`
 
 **Truffle**
 
-`npm install -g truffle` oppure `yarn global add truffle`
+`npm install -g truffle` oppure `yarn global add truffle` possibilmente senza **sudo**
 
 
 ## Avvio ambiente
 
 Lanciare **Parity**
 
-`parity`
+`parity --config dev --unlock 00a329c0648769a73afac7f9381e08fb43dbea72 --password ./parity/password`
+
+Se Parity non trova la password aggiungete un a capo nel file (=
+
+## Info
+
+Per monitorare il nodo Parity potete installare **Parity UI** https://github.com/parity-js/shell
 
 A questo indirizzo è possibile trovare la configurazione con cui Parity viene avviato di default:
 
