@@ -25,7 +25,7 @@ https://www.eventbrite.it/e/biglietti-smart-contract-e-indicizzazione-su-blockch
 
 Lanciare **Parity**
 
-`parity --config dev --unlock 00a329c0648769a73afac7f9381e08fb43dbea72 --password ./parity/password`
+`parity --config dev --unlock 00a329c0648769a73afac7f9381e08fb43dbea72 --password ./parity/password --jsonrpc-cors="all" --jsonrpc-apis="all" --jsonrpc-interface=all`
 
 Se Parity non trova la password aggiungete un a capo nel file (=
 
@@ -39,4 +39,10 @@ https://wiki.parity.io/Private-development-chain
 
 ## Test transazioni
 
-Metamask
+Metamask Chrome Extension
+
+- Creare una password per il wallet
+- Immagine unica
+- Termini e condizioni
+- Privacy
+- Segnarsi la secret backup phrase
